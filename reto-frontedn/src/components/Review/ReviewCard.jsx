@@ -1,15 +1,17 @@
 const ReviewCard = ({review}) => {
     return ( 
         <>
-        <div>
-            <div>
+        <div 
+        className="bg-Very-Dark-Magenta rounded-lg text-Light-Grayish-Magenta
+        px-8 pt-10 pb-8">
+            <div className="flex gap-6 mb-6">
                 <img src={review.imageUrl} alt="" />
-                <div>
-                    <p>{review.name}</p>
-                    <p>{review.status}</p>
+                <div className="text-[1.0625rem]/[1.2rem">
+                    <p className="font-bold">{review.name}</p>
+                    <p className="text-Soft-Pink">{review.status}</p>
                 </div>
             </div>
-            <p>{review.review}</p>
+            <p className="font-medium">{review.review}</p>
         </div>
         </>
      );

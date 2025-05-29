@@ -30,12 +30,13 @@ const ReviewContainer = () => {
 
   return (
     <>
-      <div>ReviewContainer</div>
+      <div className="flex flex-col gap-4">
       {reviews.map((review,idx)=>{
         return (
             <ReviewCard key={idx} review={review}/>
         )
       })}
+      </div>
     </>
   );
 };
