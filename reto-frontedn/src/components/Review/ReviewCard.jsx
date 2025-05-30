@@ -3,7 +3,7 @@ const ReviewCard = ({review}) => {
         <>
         <div 
         className="bg-Very-Dark-Magenta rounded-lg text-Light-Grayish-Magenta
-        px-8 pt-10 pb-8">
+        px-8 pt-10 pb-8 xl:w-350px">
             <div className="flex gap-6 mb-6">
                 <img src={review.imageUrl} alt="" />
                 <div className="text-[1.0625rem]/[1.2rem">

@@ -6,9 +6,10 @@ import BackgroundSection from "./components/BackgroundSection";
 function App() {
   return (
     <>
-      <main className="relative font-League-Spartan p-6 py-20">
+      <main className="relative font-League-Spartan p-6 py-20
+      xl:px-[165px] min-h-screen">
        <BackgroundSection/>
-        <div className="mb-12">
+        <div className="mb-12 xl:flex">
           <Hero />
           <RatingContainer />
         </div>

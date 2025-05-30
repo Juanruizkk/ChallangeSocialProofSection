@@ -30,7 +30,8 @@ const ReviewContainer = () => {
 
   return (
     <>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 xl:flex-row border-2 border-red-400
+      xl:h-[226px]">
       {reviews.map((review,idx)=>{
         return (
             <ReviewCard key={idx} review={review}/>
